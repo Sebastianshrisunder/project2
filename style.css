@@ -1,0 +1,139 @@
+*{
+        
+    margin: 0px;
+    padding: 0px;
+    
+}
+.fix{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: -1;    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+ul{
+    display: flex;   
+}
+.item{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    font-size: 15px;   
+}
+#intro{
+    top: 25px;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+}
+p{  
+    font-size: 15px;
+    text-align: center;
+}
+.primary{
+    text-decoration: none;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    border: 2px solid  black;
+    height: 20px;
+    width: 100%;
+}
+#main{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.box{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 40px;
+    padding:45px 45px;
+    height: 280px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#movie{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;    
+}
+#movie::before{
+    content: "";
+    background:url("i1.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 185px;
+    left: 61px;
+    height: 70%;
+    width: 88.6%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#show{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;    
+}
+#show::before{
+    content: "";
+    background:url("i2.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 529px;
+    left: 61px;
+    height: 70%;
+    width: 88.6%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#anime{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;    
+}
+#anime::before{
+    content: "";
+    background:url("i3.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 873px;
+    left: 61px;
+    height: 70%;
+    width: 88.6%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#webseries{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;    
+}
+#webseries::before{
+    content: "";
+    background:url("i4.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 1217px;
+    left: 61px;
+    height: 70%;
+    width: 88.6%;
+    z-index: -1;
+    opacity: 0.6;
+}
